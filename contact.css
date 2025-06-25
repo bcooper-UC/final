@@ -1,9 +1,18 @@
-/* Body Styling */
+.wrapper {
+  background-color: white;
+  max-width: 900px;
+  width: 100%;
+  padding: 40px 60px;
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  margin-bottom: 40px; /* space below */
+}
+
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background:
-    linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)),
-    url('background.jpg') no-repeat center center fixed;
+    url('images/techbackground.jpg') no-repeat center center fixed;
   background-size: cover;
   color: #333;
   line-height: 1.6;
@@ -13,7 +22,6 @@ body {
   align-items: center;
 }
 
-/* Header and Nav */
 header {
   width: 100%;
   max-width: 1000px;

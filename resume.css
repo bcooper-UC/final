@@ -1,8 +1,8 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: 
-    linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)),
-    url('background.jpg') no-repeat center center fixed;
+    background: 
+    url('images/resumebackground.jpg') no-repeat center center fixed;
+  background-size: cover;
   background-size: cover;
   color: #333;
   line-height: 1.6;
@@ -32,7 +32,7 @@ nav ul {
 
 nav ul li a {
   text-decoration: none;
-  color: #007bff;
+  color: #000000;
   font-weight: 600;
   font-size: 1.1rem;
   padding: 8px 12px;
