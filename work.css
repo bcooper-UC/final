@@ -1,0 +1,101 @@
+/* Base Body Styling */
+header {
+  margin-bottom: 40px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+  background-color: #007bff;
+  color: #fff;
+  outline: none;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: 
+    linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)),
+    url('background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #333;
+  line-height: 1.7;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 2.4rem;
+  margin-bottom: 40px;
+  color: #222;
+  text-align: center;
+}
+
+div[class$="-intern"] {
+  background-color: #ffffffee;
+  border-left: 5px solid #007bff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  padding: 30px 35px;
+  margin-bottom: 40px;
+  width: 100%;
+  max-width: 900px;
+}
+
+div[class$="-intern"] h2 {
+  font-size: 1.6rem;
+  color: #007bff;
+  margin-bottom: 15px;
+}
+
+div[class$="-intern"] p {
+  font-size: 1.05rem;
+  margin-bottom: 15px;
+  color: #444;
+}
+
+div[class$="-intern"] ul {
+  margin-bottom: 15px;
+  padding-left: 20px;
+}
+
+div[class$="-intern"] li {
+  margin-bottom: 8px;
+  font-size: 1rem;
+  color: #333;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 20px 10px;
+  }
+
+  div[class$="-intern"] {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  div[class$="-intern"] h2 {
+    font-size: 1.3rem;
+  }
+}
